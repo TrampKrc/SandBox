@@ -1,0 +1,49 @@
+{
+    "Secrets" :     "S:\\V3\\Devl\\Files\\secrets.json",
+    "FilesDir":     "S:\\V3\\Devl\\Files\\Quote\\",
+    "LogFile":      "Quote-",
+    "HistoryFile":  "Quote.txt",
+
+    "ByBit": {
+        "Key": "byLey0msQwBhmLDbci",
+        "Secret": "duzKFl6RuexHGPy7csAuv7MJNT9qm8yLyG7T",
+        "Pairs": [
+            {
+                "Symbol": "BTCUSDT",
+                "TimeFrame": "1m",
+                "LimitPerRequest": 60,
+                "MaxRequests": 2,
+                "FromUTC": "2025-05-08 07:00:00",
+                "TableName": "BtcUsdt_1m"
+            },
+            {
+                "Symbol": "ETC/USDT",
+                "TimeFrame": "1m",
+                "LimitPerRequest": 60,
+                "MaxRequests": 24,
+                "FromUTC": "2024-04-03 17:50:00",
+                "TableName": "EtcUsdt_1m"
+            }
+        ]
+    },
+
+    "Binance": [
+
+    ],
+
+    "DbFile":       "db-Quote.db",
+    "Tables": {
+        "TableName": {
+        "UTCTimeStamp": "integer PRIMARY KEY",
+        "UTCDate": "text",
+        "Open": "real",
+        "Price_H": "real",
+        "Price_L": "real",
+        "Close": "real",
+        "Volume": "real"
+    } },
+
+    "Par2": [ 12, 15, 16 ],
+    "Par3": [ {"aa":0 }, {"bb":1}  ],
+    "Par4": {  "zz": 0, "zzx": 1 }
+}
